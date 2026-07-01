@@ -1,0 +1,8 @@
+[project]
+name = "compactor"
+version = "0.1.0"
+description = "Context-compactor for Claude Code: keep last-N tool results raw, summarize older ones"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
